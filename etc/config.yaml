@@ -1,0 +1,27 @@
+debug: true
+version: 1.0.0
+web:
+  host: 127.0.0.1
+  port: 8007
+
+admin:
+  email:
+  password:
+database:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: password
+  database: word_game_bot
+bot:
+  token: 8357107457:AAEbvxFIi1mtjjpXCgQXdmQiXxgIUZBTKeI
+  id: 8357107457
+  max_threads: 10
+session:
+  key: "uWCkLG5hp6HepfXepMZKI_6fZgw5FY3WNRAU3f0Hpkk="
+
+sentry:
+  dsn:
+  env: dev
+
+store: {}
